@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+#root {
+	background-color: #2B2B2B;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #2B2B2B;
+}
+.bg-secondary {
+	background-color: #3B3B3B;
+}
+.purple-button {
+	background-color: #A259FF;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.hero-h1 {
+	width: 510px;
+	height: 222px;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 74px;
+	line-height: 110%;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+}
+
+.hero-p {
+	width: 510px;
+	height: 105px;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 160%;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+
+.info-block {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	color: #FFFFFF;
+	width: 150px;
+	height: 77px;
+}
